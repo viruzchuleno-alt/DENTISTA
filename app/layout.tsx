@@ -24,12 +24,6 @@ export const metadata: Metadata = {
   title: "Dra. Clínica Dental | Tratamientos Dentales Profesionales en Chile",
   description: "Clínica dental moderna con tecnología de última generación. Blanqueamiento, ortodoncia invisible, implantes y más. Primera consulta sin costo.",
   keywords: "odontología, clínica dental, blanqueamiento dental, ortodoncia invisible, implantes dentales, Chile",
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 5,
-  },
-  themeColor: '#36213E',
 };
 
 export default function RootLayout({
