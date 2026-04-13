@@ -123,6 +123,33 @@ dental-clinic/
 - **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
+## ☁️ Deploy en Cloudflare Pages
+
+Este proyecto está optimizado para Cloudflare Pages con static export.
+
+### Configuración en Cloudflare Pages:
+
+1. **Conecta tu repositorio GitHub** en Cloudflare Pages
+2. **Configuración de build:**
+   - **Framework preset**: `Next.js`
+   - **Build command**: `npm run build`
+   - **Build output directory**: `out`
+   - **Node version**: `18.17.0` (se detecta automáticamente desde `.node-version`)
+
+3. **Variables de entorno** (si las necesitas):
+   - Ninguna requerida para el deploy básico
+
+4. **Deploy:**
+   - Cloudflare hará el deploy automático en cada push a `main`
+   - URL de producción disponible en ~2 minutos
+
+### Build local para testing:
+
+```bash
+npm run build
+# Los archivos estáticos se generan en la carpeta /out
+```
+
 ## 🎯 Próximos Pasos
 
 - [ ] Conectar formulario de contacto a backend/email
@@ -137,4 +164,4 @@ Proyecto desarrollado siguiendo las especificaciones del prompt proporcionado.
 
 ---
 
-**Desarrollado en Chile 🇨🇱**
+**Desarrollado en Chile 🇨🇱 | Deploy-ready para Cloudflare Pages**
