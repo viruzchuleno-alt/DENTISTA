@@ -20,7 +20,7 @@ export default function ServiciosPage() {
       description: "Alineadores transparentes personalizados que corrigen tu mordida sin brackets metálicos. Cómodos, removibles y prácticamente invisibles.",
       duration: "12-18 meses",
       price: "Desde $1.990.000",
-      image: "https://images.unsplash.com/photo-1588776814546-1ffbb172e5ad?w=600&q=80",
+      image: "/images/ortodoncia-invisible.webp",
     },
     {
       id: "implantes",
