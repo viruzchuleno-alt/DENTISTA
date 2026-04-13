@@ -88,12 +88,14 @@ export default function WhyUs() {
             transition={{ duration: 0.6 }}
             className="order-first lg:order-last"
           >
-            <div className="relative h-[400px] md:h-[600px] rounded-2xl overflow-hidden">
+            <div className="relative h-[400px] md:h-[600px] rounded-2xl overflow-hidden bg-white flex items-center justify-center p-12">
               <Image
-                src="https://images.unsplash.com/photo-1588776814546-1ffbb172e5ad?w=800&q=80"
-                alt="Clínica moderna"
+                src="/images/colgate-logo.webp"
+                alt="Colgate"
                 fill
-                className="object-cover"
+                className="object-contain p-8"
+                loading="lazy"
+                quality={90}
               />
             </div>
           </motion.div>
